@@ -1,0 +1,112 @@
+body{
+		padding:0;
+		margin:0;
+		background-color:#f4f4f4;
+		font-family:"Baloo Da 2";
+		}
+.logo{
+		width:20%;
+		background-color:#426a8d;
+		padding:10px;
+		margin:.5pc .5pc;
+		text-align:center;
+		color:#f4f4f4;
+		}
+.one{
+		background-color:#dbdbdb;
+		padding:15px;
+		font-size:30px;
+		text-align:center;
+		font-weight:bold;
+		color:#5900cc;
+		}
+.two,.three1,.four{
+		margin:auto;
+		background-colo:pink;
+		width:50%;
+		paddin:10px;
+		margin:2pc auto;
+		transition:transform .5s;
+		}
+.two:hover,.three1:hover,.four:hover{
+		transform:scale(1.1,1.1);
+		}
+.gold,.silver,.bronze{
+		background-color:#aa00ff;
+		text-align:center;
+		font-size:25px;
+		padding:8px;
+		}
+.gold{
+		color:gold;
+		}
+.silver{
+		color:silver;
+		}
+.bronze{
+		color:#cd7f32;
+		}
+.six,.three2,.once{
+		background-color:#426a8d;
+		font-size:18px;
+		text-align:center;
+		padding:8px;
+		color:#f4f4f4;
+		}
+.with1,.with2,.without{
+		background-color:#dbdbdb;
+		font-size:18px;
+		text-align:center;
+		padding:8px;
+		}
+.highest,.higher,.high{
+		background-color:#aa00ff;
+		font-size:18px;
+		text-align:center;
+		padding:8px;
+		color:#f4f4f4;
+		}
+button{
+		display:block;
+		margin:auto;
+		border-radius:3px;
+		padding:7px;
+		outline:none;
+		}
+.js_icon{
+		background-colo:yellow;
+		width:30px;
+		margin:auto;
+		color:darkblue;
+		}
+.fab{
+		font-size:30px;
+		text-align:center;
+		}
+.api_reply1,.api_reply2,.api_reply3{
+		background-color:#426a8d;
+		color:white;
+		text-align:center;
+	 }
+
+
+
+@media (min-width:768px){
+.desktop{
+			width:60%;
+			margin:auto;
+			}	
+.flex{
+		display:flex;
+		justify-content:space-evenly;
+		}			
+.two,.three1,.four{
+		margin-right:1pc;
+		}
+.two{
+		order:2;
+		}					
+.four{
+		order:4;
+		}				
+	}
